@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Wotfard Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Wotfard Regular'), url('/font/Wotfard-Regular.woff') format('woff');
+  }
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+ 
+
+  
+  /* 
+   * Optional: Makes the sample page fill the window. 
+   */
+  html,
+  body {
+    font-family: 'Wotfard Regular';
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  #map {
+    height: 70%;
+    align-items: center;
+    justify-content: center;
+
+  }
+  ul,h1{
+    text-align: center;
+  }
+  ul{
+    list-style: none;
+  }
